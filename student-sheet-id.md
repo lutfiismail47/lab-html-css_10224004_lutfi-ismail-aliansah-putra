@@ -236,12 +236,12 @@ Buat `style.css` dan hubungkan ke `profile.html`. Kamu **boleh** menambahkan atr
 
 - [✔] **Halaman:** font sans-serif, lebar maksimum `960px`, posisi di tengah dengan `margin: 0 auto`, dan `line-height` yang nyaman dibaca
 - [✔] **Header:** warna background, teks berwarna terang, dan padding
-- [ ] **Nav:** list disusun horizontal dengan **flexbox** (`display: flex; gap: ...`), tanpa bullet, dan link berubah saat `:hover`
-- [ ] **Section sebagai kartu:** background putih, `padding: 16px`, border `1px`, `border-radius: 8px`, dan `margin-bottom: 24px`
-- [ ] **Tabel:** `border-collapse: collapse`, border pada sel, padding di dalam sel, dan warna background pada `th`
-- [ ] **Gambar:** `max-width: 100%` agar tidak pernah melebihi lebar wadahnya
-- [ ] **Formulir:** label berada di barisnya sendiri (`display: block`) dan input/textarea selebar penuh
-- [ ] **Footer:** rata tengah, ukuran teks lebih kecil
+- [✔] **Nav:** list disusun horizontal dengan **flexbox** (`display: flex; gap: ...`), tanpa bullet, dan link berubah saat `:hover`
+- [✔] **Section sebagai kartu:** background putih, `padding: 16px`, border `1px`, `border-radius: 8px`, dan `margin-bottom: 24px`
+- [✔] **Tabel:** `border-collapse: collapse`, border pada sel, padding di dalam sel, dan warna background pada `th`
+- [✔] **Gambar:** `max-width: 100%` agar tidak pernah melebihi lebar wadahnya
+- [✔] **Formulir:** label berada di barisnya sendiri (`display: block`) dan input/textarea selebar penuh
+- [✔] **Footer:** rata tengah, ukuran teks lebih kecil
 
 ### Variasi selector
 

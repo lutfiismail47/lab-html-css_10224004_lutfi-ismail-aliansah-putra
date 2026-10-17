@@ -1,12 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: sans-serif;
   max-width: 960px;
   margin: 0 auto;
   line-height: 1.5;
+  background-color: #ccc;
+}
+
+header,
+main,
+footer {
+  background-color: white;
 }
 
 header {
-  background-color: seagreen;
+  background-color: forestgreen;
   color: white;
   padding: 1rem;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav li {
+  list-style: none;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background-color: white;
+  padding: 16px;
+  border: 1px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: darkgray;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* Facilities */
+#facilities ul {
+  margin-left: 1rem;
+}
+
+#facilities img {
+  margin: 1rem 0;
+}
+
+/* Events */
+article {
+  padding: 10px 0;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  min-height: 150px;
+}
+
+form button {
+  padding: 5px;
+  width: 64px;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+  padding: 8px;
 }
