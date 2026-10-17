@@ -123,16 +123,16 @@ Buat `profile.html` **hanya dengan HTML** (belum pakai CSS). Gunakan konten di b
 
 ### Daftar periksa
 
-- [ ] `<!DOCTYPE html>`, `<html lang="id">`, dan `<head>` yang berisi `<meta charset>`, `<meta>` viewport, dan `<title>`
-- [ ] `<header>` dengan nama kampus sebagai **satu-satunya** `<h1>`, ditambah baris subjudul
-- [ ] `<nav>` berisi `<ul>` dengan link yang menuju ke setiap section (`#about`, `#programs`, `#facilities`, `#events`, `#contact`)
-- [ ] `<main>` dengan 5 `<section>`, masing-masing memiliki `id` dan `<h2>`
-- [ ] Program studi ditampilkan sebagai `<table>` dengan `<thead>`/`<tbody>` dan header `<th>`
-- [ ] Fasilitas ditampilkan sebagai `<ul>`, ditambah `<img>` dengan `alt` yang bermakna
-- [ ] Setiap agenda berupa `<article>` dengan `<h3>`, `<time datetime="YYYY-MM-DD">`, dan `<p>`
-- [ ] Info kontak di dalam `<address>`, dengan email sebagai link `mailto:`
-- [ ] `<form>` di mana **setiap** input memiliki `<label for="...">`. Gunakan `type="email"` untuk kolom email dan `<textarea>` untuk pesan.
-- [ ] `<footer>` dengan baris hak cipta
+- [✓] `<!DOCTYPE html>`, `<html lang="id">`, dan `<head>` yang berisi `<meta charset>`, `<meta>` viewport, dan `<title>`
+- [✓] `<header>` dengan nama kampus sebagai **satu-satunya** `<h1>`, ditambah baris subjudul
+- [✓] `<nav>` berisi `<ul>` dengan link yang menuju ke setiap section (`#about`, `#programs`, `#facilities`, `#events`, `#contact`)
+- [✓] `<main>` dengan 5 `<section>`, masing-masing memiliki `id` dan `<h2>`
+- [✓] Program studi ditampilkan sebagai `<table>` dengan `<thead>`/`<tbody>` dan header `<th>`
+- [✓] Fasilitas ditampilkan sebagai `<ul>`, ditambah `<img>` dengan `alt` yang bermakna
+- [✓] Setiap agenda berupa `<article>` dengan `<h3>`, `<time datetime="YYYY-MM-DD">`, dan `<p>`
+- [✓] Info kontak di dalam `<address>`, dengan email sebagai link `mailto:`
+- [✓] `<form>` di mana **setiap** input memiliki `<label for="...">`. Gunakan `type="email"` untuk kolom email dan `<textarea>` untuk pesan.
+- [✓] `<footer>` dengan baris hak cipta
 
 ### Batasan
 
@@ -234,8 +234,8 @@ Buat `style.css` dan hubungkan ke `profile.html`. Kamu **boleh** menambahkan atr
 
 ### Ketentuan
 
-- [ ] **Halaman:** font sans-serif, lebar maksimum `960px`, posisi di tengah dengan `margin: 0 auto`, dan `line-height` yang nyaman dibaca
-- [ ] **Header:** warna background, teks berwarna terang, dan padding
+- [✔] **Halaman:** font sans-serif, lebar maksimum `960px`, posisi di tengah dengan `margin: 0 auto`, dan `line-height` yang nyaman dibaca
+- [✔] **Header:** warna background, teks berwarna terang, dan padding
 - [ ] **Nav:** list disusun horizontal dengan **flexbox** (`display: flex; gap: ...`), tanpa bullet, dan link berubah saat `:hover`
 - [ ] **Section sebagai kartu:** background putih, `padding: 16px`, border `1px`, `border-radius: 8px`, dan `margin-bottom: 24px`
 - [ ] **Tabel:** `border-collapse: collapse`, border pada sel, padding di dalam sel, dan warna background pada `th`
