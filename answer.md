@@ -133,6 +133,6 @@ Refleksi:
 
 ## Bagian 7: Exit ticket
 
-1. 
-2. 
-3. 
+1. Anatomi aturan CSS pada dasarnya adalah tentang selector, property, dan value. Selector tentang kita ingin mengubah/memberi gaya apa? Property adalah apa yang akan kita ubah/beri gaya. Dan value adalah nilai yang kita berikan agar elemen yang ingin kita beri gaya sesuai dengan keinginan kita—misalnya kita ingin mengubah warna teks paragraf dari putih menjadi biru, maka kita beri value `blue` misalnya.
+2. Cara menghitung bobot (prioritas) selektor CSS, bagaimana cara menghitungnya dengan cepat.
+3. Memberi gaya (dasar/umum yang sering digunakan) elemen HTML menggunakan CSS
