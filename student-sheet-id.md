@@ -30,6 +30,7 @@ Salin template berikut ke `answers.md`. Isi sambil mengerjakan.
 # Jawaban Praktikum: <Nama> (<NIM>)
 
 ## Bagian 1: Pemanasan
+
 1.
 2.
 3.
@@ -37,20 +38,24 @@ Salin template berikut ke `answers.md`. Isi sambil mengerjakan.
 5.
 
 ## Bagian 3: Prediksi Selector Golf
+
 P1.
 P2.
 Setelah diuji (hasil sebenarnya):
 
 ## Bagian 4: Box model
+
 Q1 (content-box):
 Q2 (border-box):
 Pengecekan DevTools:
 
 ## Bagian 5: Tabel debug
+
 | # | Baris | Bug | Perbaikan | Cara menemukannya |
 |---|-------|-----|-----------|-------------------|
 
 ## Bagian 6: Tabel Code Review
+
 | # | Baris | Masalah | Mengapa penting | Perbaikan saya |
 |---|-------|---------|-----------------|----------------|
 
@@ -60,6 +65,7 @@ Refleksi:
 3.
 
 ## Bagian 7: Exit ticket
+
 1.
 2.
 3.
@@ -234,14 +240,14 @@ Buat `style.css` dan hubungkan ke `profile.html`. Kamu **boleh** menambahkan atr
 
 ### Ketentuan
 
-- [✔] **Halaman:** font sans-serif, lebar maksimum `960px`, posisi di tengah dengan `margin: 0 auto`, dan `line-height` yang nyaman dibaca
-- [✔] **Header:** warna background, teks berwarna terang, dan padding
-- [✔] **Nav:** list disusun horizontal dengan **flexbox** (`display: flex; gap: ...`), tanpa bullet, dan link berubah saat `:hover`
-- [✔] **Section sebagai kartu:** background putih, `padding: 16px`, border `1px`, `border-radius: 8px`, dan `margin-bottom: 24px`
-- [✔] **Tabel:** `border-collapse: collapse`, border pada sel, padding di dalam sel, dan warna background pada `th`
-- [✔] **Gambar:** `max-width: 100%` agar tidak pernah melebihi lebar wadahnya
-- [✔] **Formulir:** label berada di barisnya sendiri (`display: block`) dan input/textarea selebar penuh
-- [✔] **Footer:** rata tengah, ukuran teks lebih kecil
+- [✓] **Halaman:** font sans-serif, lebar maksimum `960px`, posisi di tengah dengan `margin: 0 auto`, dan `line-height` yang nyaman dibaca
+- [✓] **Header:** warna background, teks berwarna terang, dan padding
+- [✓] **Nav:** list disusun horizontal dengan **flexbox** (`display: flex; gap: ...`), tanpa bullet, dan link berubah saat `:hover`
+- [✓] **Section sebagai kartu:** background putih, `padding: 16px`, border `1px`, `border-radius: 8px`, dan `margin-bottom: 24px`
+- [✓] **Tabel:** `border-collapse: collapse`, border pada sel, padding di dalam sel, dan warna background pada `th`
+- [✓] **Gambar:** `max-width: 100%` agar tidak pernah melebihi lebar wadahnya
+- [✓] **Formulir:** label berada di barisnya sendiri (`display: block`) dan input/textarea selebar penuh
+- [✓] **Footer:** rata tengah, ukuran teks lebih kecil
 
 ### Variasi selector
 

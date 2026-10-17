@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 img {
@@ -16,18 +16,13 @@ body {
   background-color: #ccc;
 }
 
-header,
-main,
-footer {
-  background-color: white;
-}
-
 header {
   background-color: forestgreen;
   color: white;
   padding: 1rem;
 }
 
+/* Descendant Selector */
 header nav {
   margin-top: 1rem;
 }
@@ -46,11 +41,13 @@ header nav li a {
   text-decoration: none;
 }
 
+/* Pseudo-class Selector */
 header nav li a:hover {
   text-decoration: underline;
 }
 
-section {
+/* Class Selector */
+.card {
   background-color: white;
   padding: 16px;
   border: 1px;
@@ -66,6 +63,7 @@ table th {
   background-color: darkgray;
 }
 
+/* Grouping Selector */
 th,
 td {
   border: 1px solid black;
@@ -77,6 +75,7 @@ td {
   margin-left: 1rem;
 }
 
+/* ID selector */
 #facilities img {
   margin: 1rem 0;
 }
