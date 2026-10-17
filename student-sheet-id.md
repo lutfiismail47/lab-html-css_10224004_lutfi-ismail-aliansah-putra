@@ -1,6 +1,6 @@
 # Praktikum Web101: Halaman Profil Kampus (Dasar HTML & CSS)
 
-**Durasi:** 120 menit  **Mode:** Individu, sesuai kecepatan masing-masing
+**Durasi:** 120 menit **Mode:** Individu, sesuai kecepatan masing-masing
 
 Pada praktikum ini kamu akan membuat halaman profil untuk kampus kita, **STT Cipasung**. Setiap bagian saling berkaitan, jadi kerjakan secara berurutan. Setiap bagian mencantumkan perkiraan waktu pengerjaannya. Jika kamu buntu, lanjutkan dulu ke bagian berikutnya lalu kembali lagi nanti.
 
@@ -51,15 +51,16 @@ Pengecekan DevTools:
 
 ## Bagian 5: Tabel debug
 
-| # | Baris | Bug | Perbaikan | Cara menemukannya |
-|---|-------|-----|-----------|-------------------|
+| #   | Baris | Bug | Perbaikan | Cara menemukannya |
+| --- | ----- | --- | --------- | ----------------- |
 
 ## Bagian 6: Tabel Code Review
 
-| # | Baris | Masalah | Mengapa penting | Perbaikan saya |
-|---|-------|---------|-----------------|----------------|
+| #   | Baris | Masalah | Mengapa penting | Perbaikan saya |
+| --- | ----- | ------- | --------------- | -------------- |
 
 Refleksi:
+
 1.
 2.
 3.
@@ -100,7 +101,7 @@ Buat `profile.html` **hanya dengan HTML** (belum pakai CSS). Gunakan konten di b
 ### Konten
 
 > **STT Cipasung**
-> *Sekolah Tinggi Teknologi Cipasung, Tasikmalaya*
+> _Sekolah Tinggi Teknologi Cipasung, Tasikmalaya_
 >
 > **Tentang Kami**
 > STT Cipasung adalah sekolah tinggi teknologi di Tasikmalaya, Jawa Barat, yang didirikan pada tahun 1997 di bawah Yayasan Pondok Pesantren Cipasung.
@@ -117,8 +118,8 @@ Buat `profile.html` **hanya dengan HTML** (belum pakai CSS). Gunakan konten di b
 > Gambar: `https://placehold.co/600x300?text=STT+Cipasung` (tulis sendiri deskripsinya di `alt`)
 >
 > **Agenda Mendatang**
-> *Informatics Coding Day*: 14 November 2026. Lomba pemrograman satu hari yang terbuka untuk semua mahasiswa.
-> *Open House*: 5 Desember 2026. Kunjungi laboratorium kami dan bertemu dengan para dosen.
+> _Informatics Coding Day_: 14 November 2026. Lomba pemrograman satu hari yang terbuka untuk semua mahasiswa.
+> _Open House_: 5 Desember 2026. Kunjungi laboratorium kami dan bertemu dengan para dosen.
 >
 > **Kontak**
 > Jalan Raya Cisinga KM 1, Cilampunghilir, Padakembang, Tasikmalaya, Jawa Barat 46466
@@ -161,46 +162,46 @@ Buat `selector-golf.html` dengan kode di bawah. **Jangan ubah HTML-nya.** Tulis 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Selector Golf</title>
-  <link rel="stylesheet" href="selector-golf.css">
-</head>
-<body>
-  <header id="top">
-    <h1>Student Clubs</h1>
-    <p class="tagline">Find your people.</p>
-  </header>
-  <nav>
-    <a href="#tech">Tech</a>
-    <a href="#arts" class="active">Arts</a>
-    <a href="#sports">Sports</a>
-    <a href="https://example.com" target="_blank">External</a>
-  </nav>
-  <main>
-    <section id="tech" class="club">
-      <h2>Coding Club</h2>
-      <p>Weekly hack nights.</p>
-      <p class="note">Bring your own laptop.</p>
-    </section>
-    <section id="arts" class="club featured">
-      <h2>Photography Club</h2>
-      <p>Photo walks every Saturday.</p>
-      <ul>
-        <li>Beginner friendly</li>
-        <li class="note">Camera optional</li>
-        <li>Monthly exhibition</li>
-      </ul>
-    </section>
-    <section id="sports" class="club">
-      <h2>Futsal Club</h2>
-      <p>Matches every Friday.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2026 Student Affairs</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Selector Golf</title>
+    <link rel="stylesheet" href="selector-golf.css" />
+  </head>
+  <body>
+    <header id="top">
+      <h1>Student Clubs</h1>
+      <p class="tagline">Find your people.</p>
+    </header>
+    <nav>
+      <a href="#tech">Tech</a>
+      <a href="#arts" class="active">Arts</a>
+      <a href="#sports">Sports</a>
+      <a href="https://example.com" target="_blank">External</a>
+    </nav>
+    <main>
+      <section id="tech" class="club">
+        <h2>Coding Club</h2>
+        <p>Weekly hack nights.</p>
+        <p class="note">Bring your own laptop.</p>
+      </section>
+      <section id="arts" class="club featured">
+        <h2>Photography Club</h2>
+        <p>Photo walks every Saturday.</p>
+        <ul>
+          <li>Beginner friendly</li>
+          <li class="note">Camera optional</li>
+          <li>Monthly exhibition</li>
+        </ul>
+      </section>
+      <section id="sports" class="club">
+        <h2>Futsal Club</h2>
+        <p>Matches every Friday.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Student Affairs</p>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -209,7 +210,7 @@ Buat `selector-golf.html` dengan kode di bawah. **Jangan ubah HTML-nya.** Tulis 
 Tulis jawabanmu di `answers.md` **sebelum** menulis CSS apa pun.
 
 - **P1.** Misalkan sebuah stylesheet hanya berisi tiga aturan ini: `p { color: blue; }`, `section p { color: green; }`, dan `.note { color: orange; }`. Apa warna masing-masing teks berikut?
-  (a) "Weekly hack nights."  (b) "Bring your own laptop."  (c) "© 2026 Student Affairs"
+  (a) "Weekly hack nights." (b) "Bring your own laptop." (c) "© 2026 Student Affairs"
 - **P2.** Urutkan selector berikut dari specificity **tertinggi ke terendah**: `p`, `#tech p`, `.club p`, `main section p`
 
 Lalu uji P1 di **file terpisah** (misalnya `test.css` yang di-link sementara) agar CSS tantanganmu tidak memengaruhi hasilnya. Tuliskan hasil sebenarnya. **Prediksi yang salah tidak mengurangi nilai** selama kamu mencatat hasil sebenarnya dan menjelaskannya.
@@ -221,13 +222,13 @@ Beri nomor setiap aturan dengan komentar, misalnya `/* 1 */`. Tulis satu aturan 
 1. Semua elemen `h2` berwarna **navy**.
 2. Setiap elemen dengan class `note` memiliki **background kuning**.
 3. **Hanya** klub featured yang memiliki border `2px solid`.
-4. **Hanya** note yang berupa *paragraf* (bukan item list) yang *miring* (italic).
+4. **Hanya** note yang berupa _paragraf_ (bukan item list) yang _miring_ (italic).
 5. Paragraf **di dalam section** memiliki `line-height: 1.6`. Paragraf di header dan footer tidak boleh berubah.
 6. `h1` **dan** tagline menggunakan `Georgia, serif`, ditulis dalam **satu** aturan.
 7. Link di dalam `nav` **tidak bergaris bawah**…
 8. …tetapi **garis bawahnya muncul kembali saat di-hover**.
-9. Link eksternal (yang membuka tab baru) berwarna **merah**. Tidak boleh menambah class. *(Petunjuk: attribute selector)*
-10. Item list **pertama** dicetak **tebal**. *(Petunjuk: pseudo-class)*
+9. Link eksternal (yang membuka tab baru) berwarna **merah**. Tidak boleh menambah class. _(Petunjuk: attribute selector)_
+10. Item list **pertama** dicetak **tebal**. _(Petunjuk: pseudo-class)_
 11. Header memiliki **background abu-abu muda**. Gunakan `id`-nya.
 
 📌 **Checkpoint:** salin `selector-golf.css` ke `checkpoints/part3-selector-golf.css`.
@@ -270,7 +271,7 @@ Sebuah `.card` memiliki `width: 300px; padding: 16px; border: 1px solid; margin:
 
 ## Bagian 5: Debugging (10 menit)
 
-Buat `debug.html` dengan kode di bawah. Kode ini memiliki **9 bug** (HTML dan CSS). Temukan dan perbaiki, lalu isi tabel debug di `answers.md`. Untuk kolom "Cara menemukannya", tulis misalnya *DevTools menampilkan property yang dicoret*, *validator*, atau *membaca kode*.
+Buat `debug.html` dengan kode di bawah. Kode ini memiliki **9 bug** (HTML dan CSS). Temukan dan perbaiki, lalu isi tabel debug di `answers.md`. Untuk kolom "Cara menemukannya", tulis misalnya _DevTools menampilkan property yang dicoret_, _validator_, atau _membaca kode_.
 
 ```html
 <!DOCTYPE html>
@@ -331,37 +332,54 @@ Seorang rekan satu tim menulis halaman kampus di bawah ini. Di browser halamanny
 
 ```html
 <html>
-<head>
-<title>Campus</title>
-<style>
-.header { background-color: #003366; color: white; padding: 20px; width: 1200px; }
-.nav a { color: #cccccc !important; margin-right: 10px; }
-.content { font-size: 14px; color: #bbbbbb; }
-.sidebar { float: right; width: 300px; }
-.title { font-size: 32px; }
-</style>
-</head>
-<body>
-<div class="header">
-  <div class="title"><b>STT Cipasung</b></div>
-  <div class="nav">
-    <a href="#">Home</a> | <a href="#">Programs</a> | <a href="#">Contact</a>
-  </div>
-</div>
-<div class="content">
-  <div style="font-size: 24px; font-weight: bold;">About Us</div>
-  <br><br>
-  <div>STT Cipasung is a technology college in Tasikmalaya.</div>
-  <br>
-  <img src="https://placehold.co/600x300?text=STT+Cipasung">
-  <br><br>
-  <div style="font-size: 24px; font-weight: bold;">Contact Us</div>
-  <input type="text" placeholder="Name"><br>
-  <input type="text" placeholder="Email"><br>
-  <button onclick="alert('Sent!')">Send</button>
-</div>
-<div class="footer">Copyright 2026</div>
-</body>
+  <head>
+    <title>Campus</title>
+    <style>
+      .header {
+        background-color: #003366;
+        color: white;
+        padding: 20px;
+        width: 1200px;
+      }
+      .nav a {
+        color: #cccccc !important;
+        margin-right: 10px;
+      }
+      .content {
+        font-size: 14px;
+        color: #bbbbbb;
+      }
+      .sidebar {
+        float: right;
+        width: 300px;
+      }
+      .title {
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="title"><b>STT Cipasung</b></div>
+      <div class="nav">
+        <a href="#">Home</a> | <a href="#">Programs</a> |
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="content">
+      <div style="font-size: 24px; font-weight: bold;">About Us</div>
+      <br /><br />
+      <div>STT Cipasung is a technology college in Tasikmalaya.</div>
+      <br />
+      <img src="https://placehold.co/600x300?text=STT+Cipasung" />
+      <br /><br />
+      <div style="font-size: 24px; font-weight: bold;">Contact Us</div>
+      <input type="text" placeholder="Name" /><br />
+      <input type="text" placeholder="Email" /><br />
+      <button onclick="alert('Sent!')">Send</button>
+    </div>
+    <div class="footer">Copyright 2026</div>
+  </body>
 </html>
 ```
 
@@ -392,14 +410,14 @@ Kompres foldermu menjadi `lab-html-css_<NIM>_<Nama>.zip` dan unggah ke LMS sebel
 
 ## Penilaian (100 poin)
 
-| Bagian | Poin | Yang dinilai |
-|---|---|---|
-| 1. Pemanasan | 5 | Semua dijawab (dinilai dari usaha) |
-| 2. Struktur HTML | 20 | Daftar periksa terpenuhi, tanpa `<div>`, 0 error validator |
-| 3. Selector Golf | 20 | 11 tantangan benar (14), prediksi dibuat + hasil dijelaskan (6) |
-| 4. Styling | 20 | Ketentuan terpenuhi (12), 6 jenis selector ditandai (4), jawaban box model (4) |
-| 5. Debugging | 10 | Bug diperbaiki dan dijelaskan (sekitar 1 poin per bug) |
-| 6. Code Review | 20 | ≥ 8 masalah ditemukan (8), halaman perbaikan valid (7), refleksi (5) |
-| 7. Exit ticket | 5 | Jawaban yang dipikirkan dengan baik |
+| Bagian           | Poin | Yang dinilai                                                                   |
+| ---------------- | ---- | ------------------------------------------------------------------------------ |
+| 1. Pemanasan     | 5    | Semua dijawab (dinilai dari usaha)                                             |
+| 2. Struktur HTML | 20   | Daftar periksa terpenuhi, tanpa `<div>`, 0 error validator                     |
+| 3. Selector Golf | 20   | 11 tantangan benar (14), prediksi dibuat + hasil dijelaskan (6)                |
+| 4. Styling       | 20   | Ketentuan terpenuhi (12), 6 jenis selector ditandai (4), jawaban box model (4) |
+| 5. Debugging     | 10   | Bug diperbaiki dan dijelaskan (sekitar 1 poin per bug)                         |
+| 6. Code Review   | 20   | ≥ 8 masalah ditemukan (8), halaman perbaikan valid (7), refleksi (5)           |
+| 7. Exit ticket   | 5    | Jawaban yang dipikirkan dengan baik                                            |
 
 > **Tips:** File checkpoint menunjukkan progres kerjamu. Pekerjaan yang belum selesai tetapi memiliki checkpoint dan catatan yang jujur akan dinilai lebih baik daripada file akhir yang "sempurna" tanpa proses di baliknya.

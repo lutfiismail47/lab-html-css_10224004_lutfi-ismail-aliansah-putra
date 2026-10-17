@@ -111,12 +111,23 @@ margin: 24px
 ## Bagian 6: Tabel Code Review
 
 | # | Baris | Masalah | Mengapa penting | Perbaikan saya |
-|---|-------|---------|-----------------|----------------|
+|:-:|:-----:|:-------:|:---------------:|:--------------:|
+| 1 | 29 | Menggunakan tag `<div>` untuk membungkus konten header | Menggunakan tag `<div>` tidak memberi makna pada browser (semantik) | Gunakan tag yang semestinya, yaitu `<header>` |
+| 2 | 30 | Menggunakan tag `div` untuk membungkus judul seharusnya gunakan tag heading (`<h1>`-`h6`) | Karena untuk menunjukkan bahwa teks tersebut adalah heading/judul | Ganti dengan tag `h1` |
+| 3 | 31 | Menggunakan tag `<div>` untuk membungkus navigasi | Ada tag yang diperuntukkan untuk hal tersebut yang semantik, kenapa tidak menggunakannya | Ganti `<div>` dengan `<nav>` |
+| 4 | 36 | Menggunakan tag `<div>` untuk membungkus content atau bagian-bagian di bawah header | lebih tepat jika menggunakan tag `<section>` | Ubah tag `<div>` jadi `<section>` dengan atribut `id="content"` |
+| 5 | 37 | Menggunakan tag `<div>` untuk membungkus subjudul | Ada tag yang lebih tepat, yaitu `<h1>`-`<h6>` | Ubah dari tag `<div>` menjadi `<h2>` |
+| 6 | 39 | Menggunakan tag `<div>` untuk membungkus paragraf | Ada tag yang lebih tepat dan semantik, yaitu tag `<p>` | Ubah dari tag `<div>` menjadi `<p>` |
+| 7 | 43 | Menggunakan tag `<div>` untuk membungkus subjudul | Ada tag yang lebih tepat, yaitu `<h1>`-`<h6>` | Ubah dari tag `<div>` menjadi `<h2>` |
+| 8 | 45 | Elemen input salah value pada atribut type, seharusnya bukan `text` tapi `email`, karena input tersebut berupa email | Value atribut tidak sesuai dengan tujuan/fungsinya | Ganti dari `type="text"` menjadi `type=email` |
+| 9 | 48 | Menggunakan tag `<div>` untuk membungkus footer | Ada tag semantik yang lebih tepat untuk digunakan, yaitu tag `footer` | Ubah dari tag `<div>` menjadi `<footer>` |
+| 10 | 19-22 | Mendeklarasikan styling, tapi tidak ada elemen yang ingin diberi gaya | Menulis kode yang tidak diperlukan/digunakan | Hapus kode tersebut |
 
 Refleksi:
-1. 
-2. 
-3. 
+
+1. Mungkin masalah yang paling sulit disadari jika hanya melihat halamannya di browser adalah penggunaan tag untuk membagi halaman website—seperti tag `<section>`, `article`, `div`, dan lain-lain. Karena kadang bingung mana tag yang lebih tepat untuk saya gunakan.
+2. Walaupun halaman aslinya tetap berfungsi, penting untuk kita ketahui bahwa browser tidak hanya menampilkan konten website-nya saja. Tapi, browser juga membaca apakah tag HTML yang digunakan memiliki makna yang tepat atau tidak untuk membungkus konten yang ditampilkan ke user. Semakin tepat penggunaan tag HTML-nya, maka website kita akan lebih baik karena kita menggunakan tag yang semantik dan mempermudah pembacaan website kita.
+3. Memastikan apakah tag yang digunakan sudah tepat dan (semantik) dan memberi nama class atau id yang deskriptif
 
 ---
 
